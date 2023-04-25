@@ -1,3 +1,11 @@
 # CS5331-Project
 
-A script to scan possible malicious JS code.
+A small POC webapp to scan possible malicious JS code.
+![Example Screenshot](./example.png)
+
+## To start
+
+```bash
+npm install
+npm start
+```
