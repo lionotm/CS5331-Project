@@ -20,6 +20,7 @@ function FileUpload(props) {
       'text/html': [],
       'text/javascript': [],
       'text/plain': [],
+      'application/json': ['.json'],
     },
     maxFiles: 1,
     // Disable click and keydown behavior
@@ -44,9 +45,9 @@ function FileUpload(props) {
       <div {...getRootProps({ className: 'file-upload--dropzone ' })}>
         <input {...getInputProps()} />
         <p>Drag 'n' drop a file here</p>
-        <em>(Only *.html, *.js and *.txt will be accepted)</em>
+        <em>(Only *.html, *.js, *.json and *.txt will be accepted)</em>
         <button type='button' onClick={onOpenClick} style={{ marginTop: 16 }}>
-          Open File Dialog
+          Open File Explorer
         </button>
       </div>
       <aside>
