@@ -35,7 +35,7 @@ const externalCallRegex = [
 ];
 
 const criticalPermissionRegex = [
-  /(cookies|<all_urls>|webRequest|storage|declarativeNetRequest|geolocation|unsafe-eval)/gm
+  /("cookies"|"<all_urls>"|"webRequest"|"storage"|"declarativeNetRequest"|"geolocation"|"unsafe-eval")/gm
 ];
 
 // Combine all patterns into a single array
