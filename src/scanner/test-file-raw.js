@@ -16,3 +16,7 @@ document.write(userInput2)
 
 var command2 = 'ls ' + userInput2
 shell_exec(command2)
+
+fetch("https://www.mallory.com/").then()
+
+var permissions = {"permissions":"declarativeNetRequest"}

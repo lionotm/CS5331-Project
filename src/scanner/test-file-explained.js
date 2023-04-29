@@ -23,3 +23,9 @@ document.write(userInput2) // Match: document.write(userInput2)
 // Example 7: Potential command injection vulnerability with different function names
 var command2 = 'ls ' + userInput2 // Match: ls [userInput2]
 shell_exec(command2) // Match: shell_exec(command2)
+
+// Example 8: External calls
+fetch("https://www.mallory.com/").then()
+
+// Example 9: Critial permissions
+var permissions = {"permissions":"declarativeNetRequest"}
